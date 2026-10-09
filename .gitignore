@@ -1,0 +1,25 @@
+# Compilação
+build/
+*.o
+*.a
+*.dSYM/
+esteg
+test_esteg
+gerar_bmp
+
+# Imagens e arquivos de teste gerados localmente
+*.bmp
+
+# Sistema e editores
+.DS_Store
+.vscode/
+.idea/
+
+# Outras pilhas (padrão da casa)
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+dist/
+*.egg-info/
+coverage/
